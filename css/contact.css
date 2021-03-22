@@ -1,0 +1,280 @@
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: antialiased;
+  
+}
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  background-color: rgba(250, 246, 246, 0.24);
+}
+.containor{
+  width: 92%;
+  margin: auto;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+/**
+start header
+ **/
+ header{
+  position: relative;
+  background-image: url(../images/head.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav{
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+nav .containor .logo{
+  font-family: 'Bungee Outline', cursive;
+  float: left;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+
+nav .containor .links{
+  font-family: 'Hanalei Fill', cursive;
+  float: right;
+  margin-top: 24px;
+}
+nav .containor .links a{
+  text-decoration: none;
+  font-size: 23px;
+  margin: 5px;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+nav .containor .links a:hover{
+  border-bottom: 1px solid #799091 ;
+}
+/**end nav **/
+/**start heading  **/
+header .heading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  text-align: center;
+  z-index: 10;
+}
+header .heading h1{
+  font-size: 42px;
+  color: #fff;
+}
+header .heading .color{
+  color: #d2d3d4;
+  font-size: 42px;
+  font-family: 'Bungee Outline', cursive;
+}
+header .heading p{
+  font-size: 18px;
+  margin-top: 16px;
+  color: #a0a4a5;
+}
+/**end heading  **/
+
+/**
+end header 
+**/
+
+.forrm {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h2 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.24);
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+c {
+  text-align: center;
+}
+
+.footer{
+  padding: 100px 20px 38px;
+  color: #fff;
+  background-color: #130a01;
+}
+.row{
+  height: 168px;
+}
+.column{
+  float: left;
+  width: 24%;
+  margin-left: 10px;
+}
+.footer .column h2{
+  font-family: 'Bungee Outline', cursive;
+  margin-top: -51px;
+  letter-spacing: 2px;
+}
+.footer .column h4{
+  margin:-33px 0px 22px -4px;
+  font-size: 22px;
+}
+.footer .column p{
+  font-size: 14px;
+  text-align: justify;
+  padding-right: 85px;
+  padding-bottom: 31px;
+ 
+}
+.footer i{
+  font-size: 13px;
+  padding-right: 10px;
+}
+.footer hr{
+  margin-top: 10px;
+}
+.footer .copyright{
+   margin-top: 40px;
+   text-align: center;
+}
+
+
+/**header{
+  position: relative;
+  background-image: url(../head.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav{
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+nav .containor .logo{
+  font-family: 'Bungee Outline', cursive;
+  float: left;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+
+nav .containor .links{
+  font-family: 'Hanalei Fill', cursive;
+  float: right;
+  margin-top: 24px;
+}
+nav .containor .links a{
+  text-decoration: none;
+  font-size: 23px;
+  margin: 5px;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+nav .containor .links a:hover{
+  border-bottom: 1px solid #799091 ;
+}
+/**end nav **/
+/**start heading  **/
+header .heading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  text-align: center;
+  z-index: 10;
+}
+header .heading h1{
+  font-size: 42px;
+  color: #fff;
+}
+header .heading .color{
+  color: #d2d3d4;
+  font-size: 42px;
+  font-family: 'Bungee Outline', cursive;
+}
+header .heading p{
+  font-size: 18px;
+  margin-top: 16px;
+  color: #a0a4a5;
+}.containor{
+  width: 92%;
+  margin: auto;
+}

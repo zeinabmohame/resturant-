@@ -1,0 +1,264 @@
+/**
+start main 
+**/
+*{
+    padding: 0;
+    margin: 0;
+}
+.containor{
+    width: 92%;
+    margin: auto;
+}
+
+
+.secpadding{
+    padding: 25px 0;
+  }
+  .secheading{
+    font-size: 60px;
+     font-weight: bold;
+     padding-bottom: 10px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+   }
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+/**
+end main 
+**/
+
+/**
+start header
+ **/
+header{
+    position: relative;
+    background-image: url(../images/head.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+nav .containor .logo{
+    font-family: 'Bungee Outline', cursive;
+    float: left;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
+
+nav .containor .links{
+    font-family: 'Hanalei Fill', cursive;
+    float: right;
+    margin-top: 24px;
+}
+nav .containor .links a{
+    text-decoration: none;
+    font-size: 23px;
+    margin: 5px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+nav .containor .links a:hover{
+    border-bottom: 1px solid #799091 ;
+}
+ /**end nav **/
+ /**start heading  **/
+header .heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    z-index: 10;
+}
+header .heading h1{
+    font-size: 42px;
+    color:#fff;
+}
+header .heading .color{
+    color: #d2d3d4;
+    font-size: 42px;
+    font-family: 'Bungee Outline', cursive;
+}
+header .heading p{
+    font-size: 18px;
+    margin-top: 16px;
+    color: #a0a4a5;
+}
+ /**end heading  **/
+
+ /**
+end header 
+**/
+
+
+/*start special oofers*/
+
+.offers{
+    position: relative;  
+    }
+  .offers .container .conItem{
+   padding-bottom: 80px; 
+  }
+  .offers .container .secheading h{
+  color: #000;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+   .offers .container .conItem div{ 
+    display: inline-block;
+    width:23%; 
+    margin: 20px 10px;
+  }
+
+  .offers .container .conItem div img.pzz1{
+  height: 455px;    
+  }
+  .offers .container .conItem div img.pzz4{
+    height: 453px;    
+    }
+    
+  .offers .container .conItem div img{
+   width: 100%;
+  }
+  .offers .container .conItem div p{
+    font-size: 20px;
+    margin: 25px 0 ;
+    color: #000;
+    cursor: pointer;
+  }
+  .offers .container .conItem div span{
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .offers .container .conItem div button{
+    border: none;
+    font-size: 25px;
+    margin-left:12%;
+    border-radius: 20px;
+    padding :12px;
+    width:60%;
+    color:white;
+    background:#000;
+    cursor: pointer;
+  }
+/*end special oofers*/
+
+
+/* start special offers for drinks*/
+
+.offers{
+    position: relative;  
+    }
+  .offers .container .conItem{
+   padding-bottom: 80px; 
+  }
+  .offers .container .secheading h{
+  color: #000;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+   .offers .container .conItem div{ 
+    display: inline-block;
+    width:23%; 
+    margin: 20px 10px;
+  }
+
+  .offers .container .conItem div img.o1{
+    height: 525px;
+   }
+   
+  .offers .container .conItem div img{
+    width: 100%;
+  }
+  .offers .container .conItem div p{
+    font-size: 20px;
+    margin: 25px 0 ;
+    color: #000;
+    cursor: pointer;
+    margin-left: 5%;
+  }
+  .offers .container .conItem div span{
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    margin-left:5%;
+  }
+  
+  .offers .container .conItem div button{
+    border: none;
+    font-size: 25px;
+    margin-left:12%;
+    border-radius: 20px;
+    padding :12px;
+    width:60%;
+    color:white;
+    background:#000;
+    cursor: pointer;
+  }
+
+/* end special offers for drinks*/
+
+
+/**
+start footer
+**/
+.footer{
+  padding: 100px 20px 38px;
+  color: #fff;
+  background-color:#000;
+}
+.row{
+  height: 168px;
+}
+.column{
+  float: left;
+  width: 24%;
+  margin-left: 10px;
+}
+.footer .column h2{
+  font-family: 'Bungee Outline', cursive;
+  margin-top: -51px;
+  letter-spacing: 2px;
+}
+.footer .column h4{
+  margin:-33px 0px 22px -4px;
+  font-size: 22px;
+}
+.footer .column p{
+  font-size: 14px;
+  text-align: justify;
+  padding-right: 85px;
+  padding-bottom: 31px;
+ 
+}
+.footer i{
+  font-size: 13px;
+  padding-right: 10px;
+}
+.footer hr{
+  margin-top: 10px;
+}
+.footer .copyright{
+   margin-top: 40px;
+   text-align: center;
+}
+/**
+end footer
+**/

@@ -1,0 +1,216 @@
+/**
+start main 
+**/
+*{
+    padding: 0;
+    margin: 0;
+}
+.containor{
+    width: 92%;
+    margin: auto;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+/**
+end main 
+**/
+
+/**
+start header
+ **/
+header{
+    position: relative;
+    background-image: url(../images/head.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+nav .containor .logo{
+    font-family: 'Bungee Outline', cursive;
+    float: left;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
+
+nav .containor .links{
+    font-family: 'Hanalei Fill', cursive;
+    float: right;
+    margin-top: 24px;
+}
+nav .containor .links a{
+    text-decoration: none;
+    font-size: 23px;
+    margin: 5px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+nav .containor .links a:hover{
+    border-bottom: 1px solid #799091 ;
+}
+ /**end nav **/
+ /**start heading  **/
+header .heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    z-index: 10;
+}
+header .heading h1{
+    font-size: 42px;
+    color: #fff;
+}
+header .heading .color{
+    color: #d2d3d4;
+    font-size: 42px;
+    font-family: 'Bungee Outline', cursive;
+}
+header .heading p{
+    font-size: 18px;
+    margin-top: 16px;
+    color: #a0a4a5;
+}
+ /**end heading  **/
+
+ /**
+end header 
+**/
+/**
+start ourstory 
+**/
+.ourstory {
+margin-bottom: 80px;
+}
+.ourstory .containor{
+    overflow: hidden;
+}
+.ourstory h1{
+    margin:  68px 20px -20px 210px;
+    font-size: 44px;
+    color: #969696;
+}
+.box{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.box img {
+    width: 73%;
+    height: 105%;
+    margin: 17px -60px 20px 65px;
+}
+
+.box video {
+    width: 90%;
+    height: 100%;
+    margin: -25px -60px 20px -1px;
+}
+.box p{
+    padding: 61px 115px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+}
+/**
+end ourstory 
+**/
+
+/**
+start reviews
+**/
+.reviews{
+    overflow: hidden;
+    background-color: #d8dbdc80;
+    padding-bottom: 105px;
+}
+.reviews .containor{
+    width: 86%;
+}
+.reviews .containor h1{
+    text-align: center ;
+    font-size: 44px;
+    color: #969696;
+    margin-top: 88px;
+}
+.reviews .margin{
+    margin-top: 65px;
+}
+.reviews .x{
+    width: 33%;
+    height: 300px;
+    float: left;
+
+}
+.reviews .x img{
+    width: 100%;
+    height: 100%;
+}
+.reviews .x p{
+    padding: 30px 69px;
+    line-height: 30px;
+    font-size: 20px;
+}
+/**
+end reviews
+**/
+/**
+start footer
+**/
+.footer{
+    padding: 100px 20px 38px;
+    color: #fff;
+    background-color: #130a01;
+}
+.row{
+    height: 168px;
+}
+.column{
+    float: left;
+    width: 24%;
+    margin-left: 10px;
+}
+.footer .column h2{
+    font-family: 'Bungee Outline', cursive;
+    margin-top: -51px;
+    letter-spacing: 2px;
+}
+.footer .column h4{
+    margin:-33px 0px 22px -4px;
+    font-size: 22px;
+}
+.footer .column p{
+    font-size: 14px;
+    text-align: justify;
+    padding-right: 85px;
+    padding-bottom: 31px;
+   
+}
+.footer i{
+    font-size: 13px;
+    padding-right: 10px;
+}
+.footer hr{
+    margin-top: 10px;
+ }
+ .footer .copyright{
+     margin-top: 40px;
+     text-align: center;
+ }
+ /**
+end footer
+**/

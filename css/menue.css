@@ -1,0 +1,300 @@
+/**
+start main 
+**/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containor {
+    width: 92%;
+    margin: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+/**
+end main 
+**/
+
+
+/**
+start header
+ **/
+
+header {
+    position: relative;
+    background-image: url(../images/head.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+nav .containor .logo {
+    font-family: 'Bungee Outline', cursive;
+    float: left;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
+nav .containor .links {
+    font-family: 'Hanalei Fill', cursive;
+    float: right;
+    margin-top: 24px;
+}
+
+nav .containor .links a {
+    text-decoration: none;
+    font-size: 23px;
+    margin: 5px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+nav .containor .links a:hover {
+    border-bottom: 1px solid #799091;
+}
+
+
+/**end nav **/
+
+
+/**start heading  **/
+
+header .heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+}
+
+header .heading h1 {
+    font-size: 42px;
+    color: #fff;
+}
+
+header .heading .color {
+    color: #d2d3d4;
+    font-size: 42px;
+    font-family: 'Bungee Outline', cursive;
+}
+
+header .heading p {
+    font-size: 18px;
+    margin-top: 16px;
+    color: #a0a4a5;
+}
+
+
+/**end heading  **/
+
+
+/**
+end header 
+**/
+
+
+/**start menue*/
+
+.mContainer {
+    width: 90%;
+    margin: 50px auto;
+    background-color: rgb(252, 251, 246);
+}
+
+.pizzaC {
+    width: 1000px;
+    height: 300px;
+    margin: 50px auto;
+    display: table;
+}
+
+.title {
+    text-align: left;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.pizzaM {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    flex-basis: 400px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+}
+
+.item img {
+    max-width: 150px;
+    margin-right: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 3px;
+    transition: 1s
+}
+
+.item img:hover {
+    border-radius: 0%;
+}
+
+.item-content h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    border-bottom: 1px dashed #333;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.item-content h4 span {
+    float: right;
+    color: #ff7720;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.item-content a {
+    text-decoration: none;
+    text-align: center;
+    margin: 40px 14px;
+    padding: 16px 18px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    float: right;
+}
+
+.item-content a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 82, 82);
+    transition: 0.5s;
+}
+
+.desertC {
+    width: 1000px;
+    height: 300px;
+    margin: 50px auto;
+    display: table;
+}
+
+.desertM {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.drinkC {
+    width: 1000px;
+    height: 300px;
+    margin: 50px auto;
+    display: table;
+}
+
+.drinkM {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pieC {
+    width: 1000px;
+    height: 300px;
+    margin: 50px auto;
+    display: table;
+}
+
+.pieM {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/**
+start footer
+**/
+
+.footer {
+    padding: 100px 20px 38px;
+    color: #fff;
+    background-color: #130a01;
+}
+
+.row {
+    height: 168px;
+}
+
+.column {
+    float: left;
+    width: 24%;
+    margin-left: 10px;
+}
+
+.footer .column h2 {
+    font-family: 'Bungee Outline', cursive;
+    margin-top: -51px;
+    letter-spacing: 2px;
+}
+
+.footer .column h4 {
+    margin: -33px 0px 22px -4px;
+    font-size: 22px;
+}
+
+.footer .column p {
+    font-size: 14px;
+    text-align: justify;
+    padding-right: 85px;
+    padding-bottom: 31px;
+}
+
+.footer i {
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.footer hr {
+    margin-top: 10px;
+}
+
+.footer .copyright {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+/**
+end footer
+**/
