@@ -135,7 +135,7 @@ end header
 }
 
 fieldset {
-  border: medium none !important;
+  border:  none ;
   margin: 0 0 10px;
   min-width: 100%;
   padding: 0;
